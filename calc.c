@@ -13,5 +13,8 @@ printf("Enter operator");
 scanf("%c",&op);
 if(op=="+")
 res=add(num1,num2);
+else if(op=="-")
+res=sub(num1,num2);
 printf("result=%d",res);
+
 }
