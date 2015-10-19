@@ -8,6 +8,10 @@ int sub(int a,int b)
 {
 return a-b;
 }
+int mul(int a,int b)
+{
+return a*b;
+}
 void main
 {
 clrscr();
@@ -23,5 +27,7 @@ if(op=="+")
 res=add(num1,num2);
 else if(op=="-")
 res=sub(num1,num2);
+else if(op=="*")
+res=mul(num1,num2);
 printf("result=%d",res);
 }
